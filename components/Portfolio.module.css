@@ -1,0 +1,23 @@
+.name {
+    margin: 0;
+}
+
+.header {
+    color:white;
+    background: #1c1c1c;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main {
+    padding: 10px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
