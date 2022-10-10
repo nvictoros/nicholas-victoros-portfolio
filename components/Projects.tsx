@@ -1,5 +1,5 @@
-import Project from "./Project";
-import styles from './Projects.module.css'
+import Project from '@components/Project';
+import styles from './Projects.module.css';
 import type { Project as ProjectType } from './types';
 
 export default function Projects() {
@@ -7,22 +7,25 @@ export default function Projects() {
     <div>
       <h2>Projects</h2>
       <div className={styles.projects}>
-        {projects.map(project => <Project key={project.id} project={project} />)}
+        {projects.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}
       </div>
     </div>
-  )
+  );
 }
 
-const projects: ProjectType[] = [{
-  id: 1,
-  label: 'TopSpot',
-  description: 'A Spotify player showing your most played tracks/artists',
-  url: ""
-},
-{
-  id: 2,
-  label: 'CoolProject1',
-  description: 'Some other cool project that I\'ll eventually work on',
-  url: ""
-}
-]
+const projects: ProjectType[] = [
+  {
+    id: 1,
+    label: 'TopSpot',
+    description: 'A Spotify player showing your most played tracks/artists',
+    url: '',
+  },
+  {
+    id: 2,
+    label: 'CoolProject1',
+    description: "Some other cool project that I'll eventually work on",
+    url: '',
+  },
+];

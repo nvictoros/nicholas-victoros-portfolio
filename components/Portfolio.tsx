@@ -1,16 +1,15 @@
-import Links from "./Links";
-import Projects from "./Projects";
-import styles from './Portfolio.module.css'
+import Links from '@components/Links';
+import Projects from '@components/Projects';
+import styles from './Portfolio.module.css';
 
 export default function Portfolio() {
   return (
     <>
       <header className={styles.header}>
         <div className={styles.container}>
-          <h1 className={styles.name}>Nicholas Victoros</h1>
+          <h1 className={styles.name}>Nick Victoros</h1>
           <Links />
         </div>
-
       </header>
 
       <main className={styles.main}>
@@ -19,4 +18,3 @@ export default function Portfolio() {
     </>
   );
 }
-

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nicholas Victoros</title>
+        <title>Nick Victoros</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

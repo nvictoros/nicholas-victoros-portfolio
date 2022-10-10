@@ -1,23 +1,23 @@
 .project {
-    border: solid black 1px;
-    border-radius: 12px;
-    border-collapse: collapse;
-    padding: 12px;
-    text-decoration: none;
-    color: black;
+  border: solid black 1px;
+  border-radius: 12px;
+  border-collapse: collapse;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-    width: 500px;
-    height: 250px;
+  width: 500px;
+  height: 250px;
 }
 
 .description {
-    color: darkgray;
+  color: darkgray;
 }
 
 .label {
-    margin: 0;
+  margin: 0;
 }

@@ -1,13 +1,13 @@
 .link {
-    text-decoration: none;
-    color: white;
-    display: flex;
+  text-decoration: none;
+  color: white;
+  display: flex;
 }
 
 .link:hover {
-    color: grey;
+  color: grey;
 }
 
 .link:active {
-    color:darkgray;
+  color: darkgray;
 }
