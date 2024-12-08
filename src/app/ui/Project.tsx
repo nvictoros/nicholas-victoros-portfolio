@@ -1,4 +1,4 @@
-import styles from './Project.module.css';
+import styles from '@/app/ui/Project.module.css';
 import { Project as ProjectType } from './types';
 
 type ProjectProps = {

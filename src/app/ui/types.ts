@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export type Link = {
   id: number;
   label: string;

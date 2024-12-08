@@ -1,5 +1,5 @@
-import Project from '@components/Project';
-import styles from './Projects.module.css';
+import Project from '@/app/ui/Project';
+import styles from '@/app/ui/Projects.module.css';
 import type { Project as ProjectType } from './types';
 
 export default function Projects() {

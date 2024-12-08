@@ -1,5 +1,5 @@
-import Link from '@components/Link';
-import styles from './Links.module.css';
+import Link from '@/app/ui/Link';
+import styles from '@/app/ui/Links.module.css';
 import { LinkedInIcon, GitHubIcon, EmailIcon } from './Icons';
 import type { Link as LinkType } from './types';
 
